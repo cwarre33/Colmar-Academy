@@ -55,3 +55,59 @@ nav {
     color: #4D4D4D;
 }
 
+/* Start section */
+.start-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D8D8D8;
+}
+/* Start image */
+.start-image {
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.start-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* Start content */
+.start-content {
+    max-width: 800px;
+    padding: 0 20px;
+    text-align: left;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.start-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4A4A4A;
+    font-weight: bold;
+}
+.start-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #686868;
+    margin-bottom: 20px;
+}
+/* Start content button */
+.start-content .btn-start {
+    background-color: #4A4A4A;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    padding: 8px;
+    text-align: center;
+}
+.start-content .btn-start:hover {
+    background-color: #686868;
+}
