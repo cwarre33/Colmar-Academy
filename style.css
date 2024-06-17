@@ -59,50 +59,53 @@ nav {
 .start-section {
     display: flex;
     align-items: center;
-    justify-content: center;
+  
     background-color: #D8D8D8;
 }
 /* Start image */
 .start-image {
-    flex: 0 0 60%;
+    flex: 1;
     max-width: 60%;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 24px;
     padding-right: 24px;
+    box-sizing: border-box;
 }
 
 .start-image img {
     width: 100%;
     height: auto;
     display: block;
+    padding: 24px;
 }
 /* Start content */
 .start-content {
-    max-width: 800px;
-    padding: 0 20px;
+    max-width: 420px;
     text-align: left;
     display: flex;
     flex: 1;
     flex-direction: column;
+    padding-left: 3em;
 }
 .start-content h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    font-size: 2.6em;
+    margin-bottom: 30px;
     color: #4A4A4A;
     font-weight: bold;
+    line-height: 1;
 }
 .start-content p {
-    font-size: 1.2em;
-    line-height: 1.6;
+    font-size: 1.4em;
+    line-height: 1.5;
     color: #686868;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 /* Start content button */
 .start-content .btn-start {
     background-color: #4A4A4A;
     color: #ffffff;
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-decoration: none;
     transition: background-color 0.3s ease;
     padding: 8px;
