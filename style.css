@@ -65,11 +65,8 @@ nav {
 /* Start image */
 .start-image {
     flex: 1;
-    max-width: 60%;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 24px;
-    padding-right: 24px;
+    width: calc(100% - 48px);
+    margin: 32px 24px;
     box-sizing: border-box;
 }
 
@@ -84,9 +81,10 @@ nav {
     max-width: 420px;
     text-align: left;
     display: flex;
+    height: auto;
     flex: 1;
     flex-direction: column;
-    padding-left: 3em;
+    padding: 3em;
 }
 .start-content h1 {
     font-size: 2.6em;
@@ -113,4 +111,48 @@ nav {
 }
 .start-content .btn-start:hover {
     background-color: #686868;
+}
+/* Explore section */
+.explore-section {
+    display: flex;
+    align-items: flex-start;
+    padding: 32px 24px;
+    background-color: white;
+}
+/* Quote picture section */
+.quote-picture-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.quote-picture-section img{
+    width: calc(100% - 48px);
+    margin: 32px 24px;
+}
+
+.quote-picture-section h1{
+    font-size: 2em;
+    margin-top: 16px;
+    text-align: left;
+}
+
+.quote-picture-section p{
+    font-size: 1em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.quote-picture-section a{
+    font-size: 0.9em;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+/* Read More section  */
+.read-more-section img {
+    width: calc(100% -48px);
+    margin: 32px 24px;
 }
