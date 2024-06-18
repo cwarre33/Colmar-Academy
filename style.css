@@ -82,7 +82,7 @@ nav {
     flex: 1;
     flex-direction: column;
     padding: 3em;
-    max-width: 800px;
+    max-width: 500px;
 }
 .start-content h1 {
     font-size: calc(2.2em + 0.1vw);
@@ -164,23 +164,33 @@ nav {
 }
 
 /* Read More section  */
-.read-more-section {
+.container {
     display: flex;
+    flex-direction: column;
     flex: 0 0 40%;
-    align-items: center;
-    padding-left: 32px;
+    background-color: white;
+    margin-bottom: 94px;
 }
-.read-more-section a {
-    text-align: left;
-    text-decoration: none;
-}
-.read-more-section div {
-    max-inline-size: 65%;
 
+.stacked-link {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    border: 1px solid #D8D8D8;
 }
-.read-more-section img {
+.stacked-link:hover {
+    background-color: #D8D8D8;
+}
+
+.image {
+    margin: 16px;
+    width: 30%;
     height: auto;
-    
+}
+
+.text {
+    display: inline-block;
 }
 
 /* Media query for responsive layout */
