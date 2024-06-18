@@ -149,18 +149,21 @@ nav {
 .quote-picture-section h1{
     font-size: 2rem;
     margin-top: 32px;
+    color: #4A4A4A;
 }
 
 .quote-picture-section p{
-    font-size: 1em;
+    font-size: 0.9em;
     margin-top: 24px;
     margin-bottom: 24px;
+    color: #4A4A4A;
 }
 
 .quote-picture-section a{
     font-size: 0.9em;
     text-decoration: none;
     margin-bottom: 32px;
+    color: #4A4A4A;
 }
 
 /* Read More section  */
@@ -169,7 +172,8 @@ nav {
     flex-direction: column;
     flex: 0 0 40%;
     background-color: white;
-    margin-bottom: 94px;
+    margin-right: 4px;
+    margin-bottom: 92px;
 }
 
 .stacked-link {
@@ -191,6 +195,22 @@ nav {
 
 .text {
     display: inline-block;
+    margin: 12px;
+}
+
+.text h1 {
+    color: #4A4A4A;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.text .read-details {
+    color: #4A4A4A;
+    font-size: 0.8em
+}
+
+.text .read-more {
+    color: #37B5EE;
 }
 
 /* Media query for responsive layout */
