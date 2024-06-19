@@ -106,7 +106,7 @@ nav a img {
     height: auto;
     flex: 1;
     flex-direction: column;
-    padding: 3em;
+    margin: 16px 16px;
     max-width: 500px;
 }
 .start-content h1 {
@@ -146,6 +146,8 @@ nav a img {
     .start-content {
         order: 2;
         width: 100%;
+        padding: 1;
+        padding: 16px;
     }
 
     .start-content p {
@@ -225,6 +227,10 @@ nav a img {
     height: auto;
 }
 
+.mobile-image {
+    display: none;
+}
+
 .text {
     display: inline-block;
     margin: 12px;
@@ -253,9 +259,7 @@ nav a img {
     }
 
     .quote-picture-section {
-        padding-right: 0;
-        order: 1;
-        width: 100%;
+        display: none;
     }
 
     .read-more-section {
@@ -265,9 +269,20 @@ nav a img {
         margin-top: 32px;
     }
 
-    .quote-picture-section img,
-    .read-more-section img {
-        width: calc(100% - 48px); /* Subtracting 24px from both sides */
-        margin: 32px 24px; /* 32px top/bottom, 24px left/right */
+    .image {
+        display: none;
     }
+
+    .mobile-image {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .container { 
+        margin: 16px 16px;
+        flex: 1;
+    }
+
 }
