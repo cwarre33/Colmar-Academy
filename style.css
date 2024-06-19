@@ -55,6 +55,28 @@ nav {
     gap: 16px;
     color: #4D4D4D;
 }
+nav a img {
+    display: none;
+}
+
+/* Media query for responsive layout */
+@media (max-width: 768px) {
+    .logo-title {
+        display: none;
+    }
+    nav span {
+        display: none;
+    }
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    nav a img {
+        display: block;
+        flex-grow: 1;
+    }
+}
 
 /* Start section */
 .start-section {
@@ -85,7 +107,7 @@ nav {
     max-width: 500px;
 }
 .start-content h1 {
-    font-size: calc(2.2em + 0.1vw);
+    font-size: calc(2.4em + 0.1vw);
     margin-bottom: 30px;
     color: #4A4A4A;
     font-weight: bold;
@@ -121,9 +143,14 @@ nav {
     .start-content {
         order: 2;
         width: 100%;
-        margin-top: 32px;
     }
 
+    .start-content p {
+        margin-bottom: 32px;
+    }
+    .start-image {
+        margin: 0;
+    }
 }
 
 /* Explore section */
@@ -173,6 +200,8 @@ nav {
     flex: 0 0 40%;
     background-color: white;
     margin-right: 4px;
+    margin-left: 4px;
+    margin-top: 32px;
     margin-bottom: 92px;
 }
 
