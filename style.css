@@ -69,12 +69,15 @@ nav a img {
     }
     nav {
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+    }
+    nav a:hover {
+        background-color: #D8D8D8;
     }
     nav a img {
-        display: block;
-        flex-grow: 1;
+        display: inline;
+        padding-left: 0;
+        padding: 2.2em;
     }
 }
 
