@@ -69,7 +69,7 @@ Successfully completing this project as part of the Codecademy course "Build a W
 
 **Cameron Warren**  
 [GitHub](https://github.com/cwarre33)  
-[LinkedIn]([https://www.linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/cameron-warren-73a0192b2/))
+[LinkedIn](https://www.linkedin.com/in/cameron-warren-73a0192b2/)
 
 
    
