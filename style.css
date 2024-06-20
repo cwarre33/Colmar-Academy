@@ -299,7 +299,7 @@ nav a img {
     margin: 0;
     padding: 32px 72px;
 }
- .start-learning-title {
+ .title {
     font-size: 2em;
     color: #4A4A4A;
     text-align: center;
@@ -344,3 +344,64 @@ nav a img {
     color: #A2A2A2;
 }
 
+/* Thesis exhibit section */
+.thesis-exhibit-title {
+    font-size: 2em;
+    color: #4A4A4A;
+    text-align: center;
+    padding-top: 32px;
+    background-color: white;
+}
+.thesis-exhibit {
+    display: flex;
+    align-items: top;
+    background-color: white;
+}
+
+.video-section {
+    flex: 1;
+    max-inline-size: 60%;
+    margin: 32px 24px;
+    box-sizing: border-box;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-section h1{
+    font-size: 2rem;
+    margin-top: 32px;
+    color: #4A4A4A;
+}
+
+.video-section p{
+    font-size: 0.9em;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #4A4A4A;
+}
+
+.thesis-text {
+    display: inline-block;
+    margin: 12px;
+}
+
+.thesis-text h1 {
+    color: #4A4A4A;
+    font-size: 1.5em;
+}
+
+.thesis-text .read-details {
+    color: #4A4A4A;
+}
+
+/* Footer */
+footer {
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 48px;
+}
