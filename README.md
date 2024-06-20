@@ -51,13 +51,9 @@ To view the project locally, follow these steps:
    
 ## Final Looks
 
-### Desktop View
+### Desktop & Mobile View
 
-![Desktop View](images/desktop-view.png)
-
-### Mobile View
-
-![Mobile View](images/mobile-view.png) 
+![Both Views](images/both-views.png)
 
 ## Reference Sheet
 
@@ -72,8 +68,8 @@ Successfully completing this project as part of the Codecademy course "Build a W
 ## Author
 
 **Cameron Warren**  
-[GitHub](https://github.com/your-username)  
-[LinkedIn](https://www.linkedin.com/in/your-linkedin-profile)
+[GitHub](https://github.com/cwarre33)  
+[LinkedIn]([https://www.linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/cameron-warren-73a0192b2/))
 
 
    
