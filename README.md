@@ -53,21 +53,21 @@ To view the project locally, follow these steps:
 
 ### Desktop View
 
-![Desktop View](images/desktop-view.png) <!-- Replace with the actual path to your desktop view screenshot -->
+![Desktop View](images/desktop-view.png)
 
 ### Mobile View
 
-![Mobile View](images/mobile-view.png) <!-- Replace with the actual path to your mobile view screenshot -->
+![Mobile View](images/mobile-view.png) 
 
 ## Reference Sheet
 
-![Reference Sheet](images/reference-sheet.png) <!-- Replace with the actual path to your reference sheet image -->
+![Reference Sheet](images/colmar-academy-spec.png) 
 
 ## Certificate of Completion
 
 Successfully completing this project as part of the Codecademy course "Build a Website with HTML, CSS, and GitHub Pages" has earned me a certificate of completion, validating my skills and knowledge in web development.
 
-![Codecademy Certificate](images/certificate.jpg) <!-- Replace with the actual path to your certificate image -->
+![Codecademy Certificate](images/HTMLCERT-1.png) 
 
 ## Author
 
